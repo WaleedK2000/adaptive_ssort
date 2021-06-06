@@ -10,7 +10,9 @@ Stack.h
 	
 adaptiveShiverSort.h
 	implement the following functions
+	
 		void mergeR1_R2(Stack<Runs<T>>& S);
+	
 		decomposeToRuns();
 	
  
