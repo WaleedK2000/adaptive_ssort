@@ -37,7 +37,18 @@ Stack<Runs<T>>* decomposeToRuns(T* arr, int arr_lenght, int c) {
 // NOT Implemented 
 template<class T>
 void mergeR1_R2(Stack<Runs<T>>& S) {
-	
+	Runs<T> s_1 = S.pop();
+	Runs<T> s_2 = S.pop();
+
+	T* n_arr = mergeArr(s_1.arr, s_2.arr, s_1.lenght, s_2.lenght);
+	/*delete s_1.arr;
+	delete s_2.arr;*/
+
+	s_1.arr = n_arr;
+	s_1.lenght = s_1.lenght + s_2.lenght;
+
+	s_1.calLi();
+	S.push(s_1);
 }
 
 // Implemented and tested

@@ -51,6 +51,20 @@ public:
 	//NOT IMPLEMENTED
 	T* operator[](int i) {
 
+		if (i >= height || height == 0) {
+
+			return nullptr;
+		}
+
+		Node<T>* temp = top;
+
+		while (i > 0) {
+			temp = temp->next;
+			std::cout << i;
+			i -= 1;
+		}
+
+		return &temp->val;
 
 	}
 
