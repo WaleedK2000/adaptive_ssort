@@ -34,7 +34,7 @@ Stack<Runs<T>>* decomposeToRuns(T* arr, int arr_lenght, int c) {
 	return s;
 }
 
-// NOT Implemented 
+
 template<class T>
 void mergeR1_R2(Stack<Runs<T>>& S) {
 	Runs<T> s_1 = S.pop();
