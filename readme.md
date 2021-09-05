@@ -26,7 +26,7 @@ Lastly, we also showed a simple dry run of the algorithm.
 In Phase 2 we had to code the algorithm in any language of our choice and give a live demo to our course instructor. We also had to show the results of the algorithm for a large set of data which we ran before the live demo and stored the result.
 
 # Contributions:
-- [Waleed Khalid Kayani] (https://github.com/WaleedK2000)
-- [Sobia Noor] (https://github.com/Sobianoor)
-- Hammad Khan (https://github.com/hammadkk)
+- [Waleed Khalid Kayani](https://github.com/WaleedK2000)
+- [Sobia Noor](https://github.com/Sobianoor)
+- [Hammad Khan](https://github.com/hammadkk)
 - Hassan Ali
